@@ -114,7 +114,7 @@ class DecoratorServicePass extends AbstractRecursivePass
         }
 
         foreach ($decoratingDefinitions as $inner => $definition) {
-            $definition->addTag('container.decorator', ['id' => $inner]);
+//            $definition->addTag('container.decorator', ['id' => $inner]);
         }
     }
 
